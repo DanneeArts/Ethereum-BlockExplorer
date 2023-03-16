@@ -36,3 +36,473 @@
     transform: rotate(360deg);
   }
 }
+
+.fullbody {
+  margin-bottom: 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #282c34;
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  font-size: 14px;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  border-bottom: 3px solid whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.white a{
+  color: white;
+}
+
+.Header1 {
+  display: flex;
+  margin-top: 5px;
+}
+
+.Headerright {
+  position: relative;
+  left: 670px;
+}
+
+.logoright {
+  position: relative;
+  left: 1050px;
+  padding-top: 10px;
+}
+
+.Headerleft {
+  position: relative;
+  left: 20px;
+  height: 55px;
+}
+
+.component {
+  display: inline-block;
+}
+
+.marginsR {
+  margin-left: 40px;
+}
+
+.borders {
+  border-bottom: 3px solid whitesmoke;
+}
+
+.mainlogo {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+
+.container1 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #282c34;
+  height: 40vh;
+  
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* add some spacing between the select and input elements */
+  margin-left: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.body h3 {
+  margin-left: 40px;
+  color: white;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.bodySelect {
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.buttonSel {
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #282c34;
+  color: white;
+  margin: 5px;
+}
+
+
+/* .container2 {
+ height: 100vmax;
+} */
+
+.table1 {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80vw;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  margin-bottom: 50px;
+  margin-top: -40px;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+
+.rows {
+  height: 85px;
+  border-bottom: 3px solid whitesmoke;
+}
+
+.firstandlastrow {
+  background-color: whitesmoke;
+  height: 45px;
+}
+
+.tright, .tleft {
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.tright {
+  width: 70%;
+  border-left: 3px solid whitesmoke;
+}
+
+.tleft, .footr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tleft {
+  width: 30%;
+}
+
+.tleft h3, .tleft h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.tright div, .rows, .list-container, .lastr, .headlist, .parentload, .list-containerA  {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-containerA {
+  margin-bottom: 20px;
+}
+
+
+.tright div {
+  height: 23%;
+  border-bottom: 3px solid whitesmoke;
+}
+
+.headlist {
+  justify-content: left;
+  padding-left: 40px;
+  font-weight: bold;
+  
+}
+
+.table2, .table3, .tablelist, .receipt, .BlockR, .tablelistA {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+.table2, .table3, .tablelist, .Taddress1, .Taddress2, .tablelistA {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+  position: relative;
+  gap: 10px;
+}
+
+.Taddress1, .Taddress2 {
+  height: 300px;
+  width: 35%;
+  margin-top: 60px;
+  gap: 20px;
+}
+
+.table2, .table3{  
+  height: 600px;
+  width: 46%;
+}
+
+.tablelist, .tablelistA {  
+  width: 95%;  
+  margin: 0 auto;
+}
+.tablelist {  
+  height: 2200px;
+}
+
+.tablelistA {
+  height: 910px;
+  
+}
+
+.receipt, .BlockR {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.BlockR {
+ height: 650px;
+}
+
+.receipt {
+  height: 700px;
+}
+
+
+.table2, .Taddress1 {
+  margin-right: 10px;
+}
+
+.table3, .Taddress2 {
+  margin-left: 10px;
+
+}
+
+.textcenter, .textright, .textleft {
+  display: inline-block;
+  /* position: relative; */
+  margin: 0 60px;
+}
+
+.textright, .atright {
+  text-align: right;
+}
+
+.textleft, .atleft {
+  text-align: left;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+a {
+  color: #282c34;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.atleft, .atright {
+  display: inline-block;
+  margin: 1px 200px 1px 60px;
+}
+/* 
+.atleft {
+  margin-left: 0;
+} */
+
+/* footer */
+.footr p {
+  padding: 0;
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+
+
+/* loading */
+.parentload {
+  height: 70vh;
+}
+
+.loader {
+  border: 8px solid whitesmoke; 
+  border-top: 8px solid #282c34; 
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* transaction list page*/
+
+.trows {
+  display: flex;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.col {
+  flex: 1;
+  padding: 9.99px;
+  text-align: center;
+}
+
+.rowcolor {
+  background-color: #282c34;
+}
+
+.colcolor {
+  color: white;
+}
+
+
+.rowT {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.colT {
+  flex: 1;
+  padding: 9.99px;
+  text-align: center;
+  /* border-bottom: 1px solid whitesmoke; */
+}
+
+.TcolL, .TcolR {
+  padding: 20px 10px 10px 40px;
+}
+
+.TcolL {
+  width: 30%;
+}
+
+.TcolR {
+  width: 70%;
+}
+
+.but {
+  border-radius: 7px;
+  border: none;
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.paddis {
+  margin-bottom: 50px;
+}
+
+
+/* pagination */
+
+.pagination-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.pagination-container .pagination-item {
+  padding: 0 12px;
+  height: 32px;
+  text-align: center;
+  margin: auto 4px;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  letter-spacing: 0.01071em;
+  border-radius: 16px;
+  line-height: 1.43;
+  font-size: 13px;
+  min-width: 32px;
+}
+
+.pagination-container .pagination-item.dots:hover {
+  background-color: transparent;
+  cursor: default;
+}
+
+.pagination-container .pagination-item:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+.pagination-container .pagination-item.selected {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.pagination-container .pagination-item .arrow::before {
+  position: relative;
+  /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+  content: '';
+  /* By using an em scale, the arrows will size with the font */
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 0.12em solid rgba(0, 0, 0, 0.87);
+  border-top: 0.12em solid rgba(0, 0, 0, 0.87);
+}
+
+.pagination-container .pagination-item .arrow.left {
+  transform: rotate(-135deg) translate(-50%);
+}
+
+.pagination-container .pagination-item .arrow.right {
+  transform: rotate(45deg);
+}
+
+.pagination-container .pagination-item.disabled {
+  pointer-events: none;
+}
+
+.pagination-container .pagination-item.disabled .arrow::before {
+  border-right: 0.12em solid rgba(0, 0, 0, 0.43);
+  border-top: 0.12em solid rgba(0, 0, 0, 0.43);
+}
+
+.pagination-container .pagination-item.disabled:hover {
+  background-color: transparent;
+  cursor: default;
+}
